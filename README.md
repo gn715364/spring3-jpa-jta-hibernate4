@@ -71,7 +71,7 @@ spring3-jpa-jta-hibernate4
     	at java.lang.Thread.run(Thread.java:724)
 
 ==========================
-使用方式：
+使用方式：(請修改以下符合你的datasource)
 
 
     <bean id="dataSource1" class="com.atomikos.jdbc.AtomikosDataSourceBean"
@@ -100,8 +100,3 @@ spring3-jpa-jta-hibernate4
     	<property name="password" value="1234" />
     	<property name="url" value="jdbc:mysql://localhost:3306/test" />
     </bean>
-==========================
-使用方式：
-
-
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
