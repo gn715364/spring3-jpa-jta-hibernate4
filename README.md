@@ -79,7 +79,6 @@ java.lang.NullPointerException
 	<property name="xaDataSource" ref="dataBase1" />
 	<property name="poolSize" value="3" />
 </bean>
-<b>
 <bean id="dataBase1" class="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource"
 	lazy-init="true">
 	<property name="pinGlobalTxToPhysicalConnection" value="true" />
@@ -87,14 +86,12 @@ java.lang.NullPointerException
 	<property name="password" value="1234" />
 	<property name="url" value="jdbc:mysql://localhost:3306/mysql" />
 </bean>
-</b>
 <bean id="dataSource2" class="com.atomikos.jdbc.AtomikosDataSourceBean"
     destroy-method="close">
 	<property name="uniqueResourceName" value="DataSource2" />
 	<property name="xaDataSource" ref="dataBase2" />
 	<property name="poolSize" value="3" />
 </bean>
-<b>
 <bean id="dataBase2" class="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource"
 	lazy-init="true">
 	<property name="pinGlobalTxToPhysicalConnection" value="true" />
@@ -102,6 +99,5 @@ java.lang.NullPointerException
 	<property name="password" value="1234" />
 	<property name="url" value="jdbc:mysql://localhost:3306/test" />
 </bean>
-</b>
 </pre>
 
