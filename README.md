@@ -100,8 +100,8 @@ spring3-jpa-jta-hibernate4
     	<property name="password" value="1234" />
     	<property name="url" value="jdbc:mysql://localhost:3306/test" />
     </bean>
+==========================
+使用方式：
 
 
-
-
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
