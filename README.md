@@ -101,3 +101,7 @@ spring3-jpa-jta-hibernate4
     	<property name="url" value="jdbc:mysql://localhost:3306/test" />
     </bean>
 
+
+
+
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
