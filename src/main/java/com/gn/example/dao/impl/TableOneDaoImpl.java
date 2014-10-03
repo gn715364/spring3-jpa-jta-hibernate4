@@ -1,4 +1,4 @@
-package com.gn.example.dao.dao.impl;
+package com.gn.example.dao.impl;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
