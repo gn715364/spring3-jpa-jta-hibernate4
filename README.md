@@ -103,6 +103,6 @@ spring3-jpa-jta-hibernate4
 
 ==========================
 參考鏈結：
-http://www.byteslounge.com/tutorials/spring-jta-multiple-resource-transactions-in-tomcat-with-atomikos-example
-http://fabiomaffioletti.me/blog/2014/04/15/distributed-transactions-multiple-databases-spring-boot-spring-data-jpa-atomikos/
-http://sundoctor.iteye.com/blog/1928279#bc2357040
+http://www.byteslounge.com/tutorials/spring-jta-multiple-resource-transactions-in-tomcat-with-atomikos-example<br>
+http://fabiomaffioletti.me/blog/2014/04/15/distributed-transactions-multiple-databases-spring-boot-spring-data-jpa-atomikos/<br>
+http://sundoctor.iteye.com/blog/1928279#bc2357040<br>
