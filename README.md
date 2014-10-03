@@ -100,3 +100,9 @@ spring3-jpa-jta-hibernate4
     	<property name="password" value="1234" />
     	<property name="url" value="jdbc:mysql://localhost:3306/test" />
     </bean>
+
+==========================
+參考鏈結：
+http://www.byteslounge.com/tutorials/spring-jta-multiple-resource-transactions-in-tomcat-with-atomikos-example
+http://fabiomaffioletti.me/blog/2014/04/15/distributed-transactions-multiple-databases-spring-boot-spring-data-jpa-atomikos/
+http://sundoctor.iteye.com/blog/1928279#bc2357040
